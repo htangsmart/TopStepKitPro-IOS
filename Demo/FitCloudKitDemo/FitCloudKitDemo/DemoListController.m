@@ -27,14 +27,12 @@
     
     if(indexPath.row == 1)
     {
-        [self getBattery];
-//        [self getNotificationSetting];
-//        [self fetchSportsDataToday];
+        [self getNotificationSetting];
+        [self fetchSportsDataToday];
     }
     else if(indexPath.row == 2)
     {
-        [self sendNotificationSetting];
-//        [self manualSyncData];
+        [self manualSyncData];
     }
     else if(indexPath.row == 3)
     {

@@ -47,6 +47,7 @@ target 'FitCloudKitDemo' do
   pod 'TopStepComKitProxy', :path => '../../TopStepComKitProxy'
   pod 'TopStepComKitFitCloud', :path => '../../TopStepComKitFitCloud'
   pod 'TopStepComKitSJ', :path => '../../TopStepComKitSJ'
+  pod 'TopStepComKitFw', :path => '../../TopStepComKitFw'
   
   #################################################################################
   

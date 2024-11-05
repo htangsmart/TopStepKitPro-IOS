@@ -59,6 +59,8 @@ PODS:
     - FitCloudNWFKit
     - FitCloudWFKit
     - ReactiveObjC
+  - TopStepComKitFw (1.0.2):
+    - ReactiveObjC
   - TopStepComKitProxy (1.0.2):
     - ReactiveObjC
   - TopStepComKitSJ (1.0.2):
@@ -112,6 +114,7 @@ DEPENDENCIES:
   - Toast
   - TopStepComKit (from `../../TopStepComKit`)
   - TopStepComKitFitCloud (from `../../TopStepComKitFitCloud`)
+  - TopStepComKitFw (from `../../TopStepComKitFw`)
   - TopStepComKitProxy (from `../../TopStepComKitProxy`)
   - TopStepComKitSJ (from `../../TopStepComKitSJ`)
   - TSDialWidget (from `https://github.com/htangsmart/TSDialWidget-iOS.git`)
@@ -157,6 +160,8 @@ EXTERNAL SOURCES:
     :path: "../../TopStepComKit"
   TopStepComKitFitCloud:
     :path: "../../TopStepComKitFitCloud"
+  TopStepComKitFw:
+    :path: "../../TopStepComKitFw"
   TopStepComKitProxy:
     :path: "../../TopStepComKitProxy"
   TopStepComKitSJ:
@@ -203,6 +208,7 @@ SPEC CHECKSUMS:
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
   TopStepComKit: af202ec4aac12c434a224dd6d89900bd829b6cf6
   TopStepComKitFitCloud: b7ed3137c3182582982b1c8a20baca11fbb8107e
+  TopStepComKitFw: a5b7a350f2ea2f5b14b7b8434dfca613b8946ad0
   TopStepComKitProxy: fd6606e901b544ddea61a57cd6604d545791bde7
   TopStepComKitSJ: 2cbc16939b77c3e119cef8c4e1613cb0d4c9cd72
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
@@ -215,6 +221,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 1ba502fe58cd9755e69032f3b8bfa508f78a4812
+PODFILE CHECKSUM: 465b335a94ef58f9da01a920d1ccee99650e289c
 
 COCOAPODS: 1.15.2
